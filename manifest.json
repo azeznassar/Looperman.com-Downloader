@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Looperman.com Downloader",
+    "description": "Download loops off Looperman.com without logging in",
+    "version": "0.0.4",
+    "icons": {
+        "512" : "logo/icon.png"
+    },
+    "action": {
+        "default_title": "Looperman.com Downloader"
+    },
+    "permissions": [],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "content_scripts": [{
+        "js": [
+            "lib/jquery.js",
+            "foreground.js"
+        ],
+        "matches": ["https://www.looperman.com/*"]
+    }]
+}
