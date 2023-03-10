@@ -7,7 +7,7 @@
 ## Installation
 - Download a zip of the repo and unzip it on your computer.
 - **Open [the extensions page](chrome://extensions)** in your browser: `chrome://extensions`. 
-- Click the button **_load unpacked extension_**. (Must be Develoepr mode enabled)
+- Click the button **_load unpacked extension_**. (Must have Developer mode enabled)
 - In the window that pops up, **select the folder that contains this extension**, then **click _ok_**.
 - **Done!** A new extension called Looperman.com Downloader will be in your Extenstions list.
 
