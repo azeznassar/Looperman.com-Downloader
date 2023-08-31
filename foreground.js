@@ -11,16 +11,17 @@ function button(href) {
     var newHref = replaceExtension(href);
     link.href = newHref;
     link.style.position = 'absolute';
-    link.style.top = '7px';
-    link.style.right = '199px';
+    link.style.top = '49px';
+    link.style.right = '115px';
     link.style.zIndex = 100;
     link.style.textDecoration = 'none';
-    link.style.fontSize = '17px';
-    link.style.fontFamily = 'system-ui';
+    link.style.fontSize = '20px';
+    link.style.fontWeight = '700';
+    link.style.fontFamily = 'Tahoma';
     link.style.background = '#000000';
-    link.style.padding = '5px';
-    link.style.color = 'white';
-    link.style.borderRadius = '10px';
+    link.style.padding = '10px';
+    link.style.color = '#ff9900';
+    link.style.borderRadius = '120px';
     link.classList.add('download');
     link.setAttribute('download', '');
 
