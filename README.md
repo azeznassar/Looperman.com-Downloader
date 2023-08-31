@@ -12,6 +12,6 @@
 - **Done!** A new extension called Looperman.com Downloader will be in your Extenstions list.
 
 <div align="center">
-    <img src="preview2.png"/>
+    <img src="preview3.png"/>
 </div>
 

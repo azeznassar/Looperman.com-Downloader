@@ -27,7 +27,7 @@ function button(href) {
 
     var span = document.createElement('span');
     span.classList.add('download-label');
-    span.innerText = 'Download Sample ⬇️';
+    span.innerText = 'Download Sample 🥁';
   
     link.appendChild(span);
     return link.outerHTML;
