@@ -1,6 +1,15 @@
+function replaceExtension(filename) {
+  if (filename.endsWith(".wav")) {
+    return filename.replace(".wav", ".mp3");
+  }
+  return filename;
+}
+
+
 function button(href) {
     var link = document.createElement('a');
-    link.href = href;
+    var newHref = replaceExtension(href);
+    link.href = newHref;
     link.style.position = 'absolute';
     link.style.top = '7px';
     link.style.right = '199px';
@@ -17,7 +26,7 @@ function button(href) {
 
     var span = document.createElement('span');
     span.classList.add('download-label');
-    span.innerText = 'Download MP3 ⬇️';
+    span.innerText = 'Download Sample ⬇️';
   
     link.appendChild(span);
     return link.outerHTML;
